@@ -1,1 +1,0 @@
-# OCR-free Document Understanding with Donut Transformer
