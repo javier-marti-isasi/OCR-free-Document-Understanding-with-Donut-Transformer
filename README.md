@@ -33,3 +33,7 @@ The OCR-free Donut model proved to be efficient and precise for document compreh
 
 Note: These results come from experimental datasets and might need adjustment for datasets more representative of business reality. However, the current results are promising and suggest a viable practical application.
 
+---
+
+For more information about the project, please check the `Project_Workflow.pdf`.
+
