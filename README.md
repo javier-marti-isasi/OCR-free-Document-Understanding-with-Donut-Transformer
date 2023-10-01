@@ -21,7 +21,10 @@ The goal is to enhance efficiency in mortgage granting by automating the identif
 * Evaluation of results and project viability.
 
 ## Methodology
-The Donut architecture was adopted to address document classification and data extraction. This model was proposed in <a href="https://arxiv.org/abs/2111.15664" target="_blank">OCR-free Document Understanding Transformer</a> by Geewook Kim, Teakgyu Hong, Moonbin Yim, Jeongyeon Nam, Jinyoung Park, Jinyeong Yim, Wonseok Hwang, Sangdoo Yun, Dongyoon Han, Seunghyun Park. Donut consists of an image Transformer encoder and an autoregressive text Transformer decoder to perform document understanding tasks such as document image classification, form understanding and visual question answering.
+The Donut architecture was adopted to address document classification and data extraction. 
+
+This model was proposed in <a href="https://arxiv.org/abs/2111.15664" target="_blank">OCR-free Document Understanding Transformer</a> by Geewook Kim, Teakgyu Hong, Moonbin Yim, Jeongyeon Nam, Jinyoung Park, Jinyeong Yim, Wonseok Hwang, Sangdoo Yun, Dongyoon Han, Seunghyun Park. Donut consists of an image Transformer encoder and an autoregressive text Transformer decoder to perform document understanding tasks such as document image classification, form understanding and visual question answering.
+
 ![donut_architecture](https://github.com/javier-marti-isasi/OCR-free-Document-Understanding-with-Donut-Transformer/assets/73080100/015b1eb4-6679-480a-981d-74945d390b57)
 
 The Donut model will be fine-tuned to address the document classification problem. For the data extraction challenge, inference will be applied directly to a pre-trained Donut model.
